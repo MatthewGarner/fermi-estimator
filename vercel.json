@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://tools.matthewgarner.me/fermi/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://tools.matthewgarner.me/fermi/:path*",
       "permanent": true
