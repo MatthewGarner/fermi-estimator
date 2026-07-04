@@ -1,9 +1,3 @@
-# Fermi estimator
+# Moved
 
-Back-of-the-envelope arithmetic that's honest about what you don't know. Every input is a 90% range; the answer is a P10/P50/P90 distribution.
-
-Single-file HTML tool — no dependencies, no build step. `index.html` is the whole app.
-
-Live at https://fermi.matthewgarner.me
-
-Built with Claude Code, July 2026.
+The Fermi estimator now lives in the [tools monorepo](https://github.com/MatthewGarner/tools) and is served at [tools.matthewgarner.me/fermi](https://tools.matthewgarner.me/fermi/). This project only redirects fermi.matthewgarner.me there (URL fragments — and therefore shared models — survive the redirect).

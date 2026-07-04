@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://tools.matthewgarner.me/fermi/:path*",
+      "permanent": true
+    }
+  ]
+}
