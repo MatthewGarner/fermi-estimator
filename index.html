@@ -9,6 +9,7 @@
 </head>
 <body>
 <style>
+<style>
   :root{
     --bg:#F7F8F6; --grid:rgba(70,110,140,.10); --card:#FFFFFF; --border:#DEE4E1;
     --ink:#22323C; --muted:#5C6E79; --accent:#0C7FAE; --accent-ink:#0A6C94;
@@ -176,6 +177,8 @@
   .about p{margin:0 0 10px}
   .about a{color:var(--accent-ink)}
   footer{color:var(--muted);font-size:12.5px;text-align:center;line-height:1.6}
+  footer a{color:var(--muted)}
+  footer a:hover{color:var(--accent-ink)}
   @media (max-width:560px){
     .tiles{grid-template-columns:1fr;gap:8px}
     .tile.mid{order:-1}
@@ -263,7 +266,7 @@
   <footer>
     One file, no dependencies. Numbers accept k / M / B / T suffixes. The URL carries your model — bookmark or share it.<br>
     Ranges spanning zero fall back to a normal fit. Sampling is deterministic: the same link always shows the same numbers.<br>
-    Built with Claude Code, July 2026.
+    Lives at <a href="https://fermi.matthewgarner.me">fermi.matthewgarner.me</a> · <a href="https://github.com/MatthewGarner/fermi-estimator" target="_blank" rel="noopener">source</a> · Built with Claude Code, July 2026.
   </footer>
 </div>
 
